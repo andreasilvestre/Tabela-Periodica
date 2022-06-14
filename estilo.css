@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+}
+#table1{
+    margin:50px auto;
+    width: 30px;
+    height: 30px;
+    max-width: 300px;
+    max-height: 700px;
+}
+caption{
+    padding:20px;    
+}
+#legenda{
+    text-align: left;
+    padding: 0px 0px;
+    font-size: 1.5em;
+}
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+.NaoMetais{
+    background-color: #9acd32;
+}
+.MetaisAlcalinos{
+    background-color: #ff6347	;
+}
+.SemiMetais{
+    background-color:magenta;
+}
+.OutrosMetais{
+    background-color: #ffff00;
+}
+.Lantanideos
+{
+    background-color: #c0c0c0;
+}
+.GasesNobres{
+    background-color: #32b5e9;
+}
+.MetaisAlcalinosTerrosos{
+    background-color: #8fbc8f;
+}
+.Halogenios{
+    background-color: #a89736;
+}
+.MetaisdeTransicao{
+    background-color: #db7093;
+}
+.Acnideos{
+    background-color:#00fa9a;   
+}
+
+.numero{
+    align-self: flex-start;
+    width:15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+}
+.simbolo{
+    text-align: center;
+    font-size: 25px;
+}
+.nome{
+    text-align: center;
+}
+.peso{
+    text-align: center;
+}
