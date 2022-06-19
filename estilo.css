@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,300&display=swap');
 *{
     margin:0;
     padding:0;
+}
+body{
+    width: 50px;
+    height: 300px;
 }
 #table1{
     margin:50px auto;
@@ -9,18 +14,39 @@
     max-width: 300px;
     max-height: 700px;
 }
+#table2{
+    margin-left: 320px;
+}
 caption{
     padding:20px;    
 }
 #legenda{
+    margin-left: 0px;
     text-align: left;
     padding: 0px 0px;
     font-size: 1.5em;
 }
-td,
+#legenda tr
+{
+    width: 1000px;
+    height: 20px;
+}
+/* td,
 th {
     border: 1px solid rgb(190, 190, 190);
     padding: 10px;
+} */
+td {
+    /* border: 1px solid rgb(190, 190, 190); */
+    padding: 10px;
+}
+td,
+th {
+    padding: 10px;
+}
+th{
+    background-color: rgb(165, 164, 164);
+    /* margin: 600px; não funcionou */
 }
 
 .NaoMetais{
@@ -65,10 +91,28 @@ th {
 .simbolo{
     text-align: center;
     font-size: 25px;
+    font-family: Anek Latin, sans-serif;
 }
 .nome{
     text-align: center;
 }
 .peso{
     text-align: center;
+}
+table td:hover {
+    background-color: #1e1eaa;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.branco:hover{
+    background-color: white;
+}
+#hidrogenio
+{
+    width: 800px;
+    font-size: 25px;
+}
+.NaoMetais :active{
+    background-color: #ffff00;
 }

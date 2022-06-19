@@ -33,15 +33,20 @@
                 <th>18</th>
             </thead>
         </tr>
+        <!-- <tr>
+            <td class="branco" rowsspan="16"></td>
+        </tr> -->
         <tr>
             <th>1</th>
-            <td class="NaoMetais">
+            <td  class="NaoMetais">
+                <!-- <div onclick="functionRef(event)">Click here</div> -->
                 <div class="numero">1</div>
                 <div class="simbolo">H</div>
-                <div class="nome">hidrogênio</div>
+                <!-- <div class="nome">hidrogênio</div> -->
+                <a href="#hidrogenio" class="nome">hidrogênio</a>
                 <div class="peso">1,008</div>
             </td>
-            <td colspan="16"></td>
+            <td class="branco" colspan="16"></td>
             <td class="GasesNobres">
                 <div class="numero">2</div>
                 <div class="simbolo">He</div>
@@ -63,7 +68,7 @@
                 <div class="nome">berílio</div>
                 <div class="peso">9,0122</div>
             </td>
-            <td colspan="10"></td>
+            <td class="branco" colspan="10"></td>
             <td class="SemiMetais">
                 <div class="numero">5</div>
                 <div class="simbolo">B</div>
@@ -115,7 +120,7 @@
                 <div class="nome">magnesio</div>
                 <div class="peso">23,305</div>
             </td>
-            <td colspan="10"></td>
+            <td class="branco" colspan="10"></td>
             <td class="OutrosMetais">
                 <div class="numero">13</div>
                 <div class="simbolo">Al</div>
@@ -784,8 +789,8 @@
             </td>
         </tr>
     </table>
-    <table> 
-        <caption id="legenda">Legenda</caption>
+    <table id="legenda"> 
+        <caption><h2>Legenda</h2></caption>
         <tr>
             <td class="NaoMetais">Não metais</td>
             <td class="MetaisAlcalinos">Metais alcalinos</td>
@@ -804,5 +809,13 @@
     <table id="MaisInformacoes">
         <caption>Mais informações dos elementos</caption>
     </table>
+    <div id="hidrogenio">
+        <p>O Hidrogênio é o elemento químico mais leve do universo e é 
+            capaz de ligar-se com outros átomos de Hidrogênio, formando
+             um gás que apresenta diversas utilizações. O Hidrogênio é
+              o elemento químico de menor massa atômica (1 u) e menor
+               número atômico (Z=1) entre todos os elementos conhecidos até hoje.
+        </p>
+    </div>
 </body>
 </html>
