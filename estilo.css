@@ -116,3 +116,6 @@ table td:hover {
 .NaoMetais :active{
     background-color: #ffff00;
 }
+.detalhe{
+    width: 1500px;
+}
