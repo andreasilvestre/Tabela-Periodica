@@ -3,50 +3,54 @@
     margin:0;
     padding:0;
 }
-body{
-    width: 50px;
-    height: 300px;
+/* body{
+    width: 100%;
+    height: 100%;
+} */
+
+body {
+    background-color: #f1f1f1;
 }
+
+.container {
+    background-color: white;
+    width: 1200px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, .1);
+}
+
 #table1{
     margin:50px auto;
     width: 30px;
     height: 30px;
-    max-width: 300px;
-    max-height: 700px;
 }
+
 #table2{
     margin-left: 320px;
 }
+#legenda{
+    margin:50px;
+    width: 1500px;
+    height: 200px;
+    font-weight: 1000;
+    font-size: 25px;
+    font-family: Anek Latin, sans-serif;
+}
+#legenda td{
+    width: 300px;
+}
+
 caption{
     padding:20px;    
 }
-#legenda{
-    margin-left: 0px;
-    text-align: left;
-    padding: 0px 0px;
-    font-size: 1.5em;
-}
-#legenda tr
-{
-    width: 1000px;
-    height: 20px;
-}
-/* td,
-th {
-    border: 1px solid rgb(190, 190, 190);
-    padding: 10px;
-} */
-td {
-    /* border: 1px solid rgb(190, 190, 190); */
-    padding: 10px;
-}
+
 td,
 th {
     padding: 10px;
 }
+
 th{
     background-color: rgb(165, 164, 164);
-    /* margin: 600px; não funcionou */
 }
 
 .NaoMetais{
@@ -77,7 +81,7 @@ th{
 .MetaisdeTransicao{
     background-color: #db7093;
 }
-.Acnideos{
+.Actinideos{
     background-color:#00fa9a;   
 }
 
@@ -91,6 +95,7 @@ th{
 .simbolo{
     text-align: center;
     font-size: 25px;
+    font-weight: 1000;
     font-family: Anek Latin, sans-serif;
 }
 .nome{
@@ -99,23 +104,69 @@ th{
 .peso{
     text-align: center;
 }
-table td:hover {
+#table1 td:hover {
     background-color: #1e1eaa;
     color: white;
     font-weight: 700;
     cursor: pointer;
+
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    border-radius: 10px;
 }
-.branco:hover{
+
+#table2 td:hover {
+    background-color: #1e1eaa;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    border-radius: 10px;
+}
+
+#table1 .branco:hover{
     background-color: white;
+
+    /*solução para tirar efeito hover das células em branco*/
+    -moz-transform: scale(0);
+	-webkit-transform: scale(0);
+	transform: scale(0);
 }
-#hidrogenio
+
+#legenda td:hover {
+    background-color: #1e1eaa;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    border-radius: 10px;
+}
+
+/* #hidrogenio
 {
     width: 800px;
     font-size: 25px;
-}
-.NaoMetais :active{
+} */
+/* .NaoMetais :active{
     background-color: #ffff00;
-}
+} */
+
+#mais_informacoes{
+    width: 85%;
+    /* border: black; */
+    margin-left: 100px;
+} 
 .detalhe{
-    width: 1500px;
+    width: 60%;
+} 
+a{
+    text-decoration: none;
+    color: inherit;
 }
