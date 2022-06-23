@@ -1,0 +1,5 @@
+1. padronizar tamanho celula table1 e table2;
+==> a table1 não funciona
+2. colocar todas as 4 tables(table1, table2, legenda, mais_informacoes) no conteiner sem bagunçar nada.
+3. ajustar automático de acordo com o tamnho da tela, o conteiner para mais e para menos, em percentual também. 
+4.Orientação: para subir a página, apertar home.
