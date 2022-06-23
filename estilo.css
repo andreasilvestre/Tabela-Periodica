@@ -149,6 +149,19 @@ th{
     border-radius: 10px;
 }
 
+
+#mais_informacoes td:hover {
+    background-color: #1e1eaa;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    border-radius: 10px;
+}
+
 /* #hidrogenio
 {
     width: 800px;
